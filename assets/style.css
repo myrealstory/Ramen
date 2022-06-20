@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: rgb(244, 38, 38);
+    --main-bg-color: #a50121;
     --second-bg-color : rgb(189,0,0);
     --third-bg-color:rgb(112, 0, 0);
     --btn-primary:rgb(255, 183, 16);
@@ -8,15 +8,59 @@
     --firepink:rgb(255, 71, 71);
 
   }   
-.nav {
+.bcontent a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.w-100 {
+    width: 100vw;
+}
+.w-90 {
+    width: 90%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-65{
+    width: 65%;
+}
+
+.mr-6 {
+    margin-right: 6rem;
+}
+.wht {
+    color: var(--white);
+}
+img {
+    width: 100%;
+}
+.wht a{
+    color: var(--white);
+}
+#nav {
     position: relative;
+    
+}
+.ncontainer ,.fcontainer{
+    width: 100vw;
+    background-color: var(--main-bg-color);
+}
+.navgo {
+    width: 90%;
+    text-align: center;
 }
 .navbar {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    
 }
 
+.navmember {
+    top: 30%;
+    right: 5%;
+}
 .navbtn{
     position: relative;
 }
@@ -24,6 +68,81 @@
 .navbtn::after {
     content:'';
     position: absolute;
+    background-color: var(--white);
+    width: 5px;
+    height: 5px;
+    top: 25%;
+    /* left: 0; */
+    right: -50%;
+    /* bottom: 0; */
+    border-radius: 50%;
 
 
+}
+.svg{
+    width: 160px;
+    height: 110px;
+}
+
+/*----------------------bodycon----------------------*/
+
+.bodycon {
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    box-shadow: 11px 17px 20px -2px rgba(0,0,0,0.63);
+}
+.animebg {
+    width: 35rem;
+    height: 35rem;
+}
+
+.bcontent {
+    padding-left: 6rem;
+    width: 50rem;
+}
+
+.fcontainer {
+    max-height: 100vh;
+    max-width: 100vw;
+    z-index: -1;
+}
+
+.bodybox {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.th2 {
+    font-weight: 900;
+    font-size: 7rem;
+}
+
+.tp {
+    font-size: 3rem;
+    color: rgb(255, 255, 98);
+}
+.t-btn {
+    width: 10rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-bg-color);
+    font-weight: 900;
+}
+
+button {
+    border: 0;
+}
+
+.t-arrow {
+    height: 100%;
+    background-color: var(--btn-primary);
+    width: 40%;
+    color: var(--white);
+    font-weight: 900;
+    
 }
