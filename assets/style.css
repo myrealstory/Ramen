@@ -1,0 +1,29 @@
+:root {
+    --main-bg-color: rgb(244, 38, 38);
+    --second-bg-color : rgb(189,0,0);
+    --third-bg-color:rgb(112, 0, 0);
+    --btn-primary:rgb(255, 183, 16);
+    --black :rgb(43, 43, 43);
+    --white :rgb(255, 255, 255);
+    --firepink:rgb(255, 71, 71);
+
+  }   
+.nav {
+    position: relative;
+}
+.navbar {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.navbtn{
+    position: relative;
+}
+
+.navbtn::after {
+    content:'';
+    position: absolute;
+
+
+}
