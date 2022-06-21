@@ -12,7 +12,7 @@ canvas.width = 854;
 const img = new Image();
 img.src = currentFrame(1);
 
-// console.log(img);
+console.log(img);
 
 img.onload = function () { 
     context.drawImage(img,0,0)
