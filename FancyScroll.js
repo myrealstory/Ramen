@@ -3,7 +3,7 @@ const canvas = document.querySelector('.fcontainer');
 const context = canvas.getContext('2d');
 
 const currentFrame = index => { 
-    `./assets/img/flame${index.toString().padStart(1,'0')}.png`
+    `../assets/img/flame${index.toString().padStart(1,'0')}.png`
 }
 
 const frameCount = 59;
